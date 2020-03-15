@@ -8,7 +8,7 @@ class Country(object):
 
 class City(object):
     def __init__(self, numPeople):
-        self.people =[]
+        self.people = []
         self.numPeople = numPeople
 
     def addPerson(self, person):
