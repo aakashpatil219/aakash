@@ -7,19 +7,19 @@ class Time:
         self.h = int(input())
 
     def display(self):
-        print(self.h," Hours and ",self.m," Minutes")
+        print(self.h, " Hours and ", self.m, " Minutes")
 
 class Final_time:
     h = 0
     m = 0
-    def accept(self,t):
+    def accept(self, t):
         self.h = t.h
         self.m = t.m
 
-    def sum(self,t1,t2):
+    def sum(self, t1, t2):
         self.m = t1.m + t2.m
-        self.h = self.m/60
-        self.m = self.m%60
+        self.h = self.m / 60
+        self.m = self.m % 60
         self.h = self.h + t1.h + t2.h
 
     def display(self):
